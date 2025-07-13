@@ -17,14 +17,14 @@ Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 | Carpeta / Archivo         | Descripción                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
 | [`docs/`](https://github.com/eduardoleon9010/python_en_accion/tree/main/docs)                   | Página web interactiva para GitHub Pages (`index.html`)                     |
-| `documentacion/`          | Archivos explicativos, guías y referencias                                  |
-| `img/`                    | Imágenes de apoyo para notebooks o documentación                            |
-| `juego_1/`                | Proyecto de juego básico con Python                                         |
-| `my_pygame_project/`      | Proyecto interactivo utilizando la librería **Pygame**                      |
-| `Proyecto_EDA/`           | Proyecto de análisis exploratorio de datos (**Exploratory Data Analysis**) |
-| `scripts/`                | Ejemplos de código organizados por nivel de dificultad                      |
-| `Licencia`                | Archivo de licencia del repositorio (MIT u otra)                            |
-| `README.md`               | Este archivo                                                               |
+| [`documentacion/`](https://github.com/eduardoleon9010/python_en_accion/tree/main/documentacion)          | Archivos explicativos, guías y referencias                                  |
+| [`img/`]()()                    | Imágenes de apoyo para notebooks o documentación                            |
+| [`juego_1/`](https://github.com/eduardoleon9010/python_en_accion/blob/main/juego_1/README.md)               | Proyecto de juego básico con Python                                         |
+| [`my_pygame_project/`](https://github.com/eduardoleon9010/python_en_accion/blob/main/my_pygame_project/README.md)        | Proyecto interactivo utilizando la librería **Pygame**                      |
+| [`Proyecto_EDA/`](https://github.com/eduardoleon9010/python_en_accion/blob/main/Proyecto_EDA/README.md)             | Proyecto de análisis exploratorio de datos (**Exploratory Data Analysis**) |
+| [`scripts/`](https://github.com/eduardoleon9010/python_en_accion/tree/main/scripts)                 | Ejemplos de código organizados por nivel de dificultad                      |
+| [`Licencia`](https://github.com/eduardoleon9010/python_en_accion/blob/main/LICENSE)                  | Archivo de licencia del repositorio (MIT u otra)                            |
+| [`README.md`](https://github.com/eduardoleon9010/python_en_accion/blob/main/README.md)               | Este archivo                                                               |
 
 ---
 
