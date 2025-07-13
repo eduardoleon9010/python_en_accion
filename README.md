@@ -52,4 +52,3 @@ Este repositorio está bajo la [Licencia MIT](./Licencia). Puedes utilizar, modi
 
 
 Desarrollado por **Ing. Leon, E.**  
-🔗 Sitio interactivo: [https://eduardoleon9010.github.io/programas-python/](https://eduardoleon9010.github.io/programas-python/)
