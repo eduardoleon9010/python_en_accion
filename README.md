@@ -25,16 +25,16 @@ Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 | [`README.md`](https://github.com/eduardoleon9010/python_en_accion/blob/main/README.md)               | Este archivo                                                               |
 
 
-## 🚀 ¿Qué encontrarás aquí?
+## ¿Qué encontrarás aquí?
 
-- 🔢 **Scripts** básicos, intermedios y avanzados
-- 💡 **Proyectos completos** aplicados a ciencia de datos y desarrollo de juegos
-- 🧠 **Ejercicios** para reforzar habilidades
-- 📚 **Documentación y recursos visuales**
-- 📊 **Visualización interactiva** en la versión web
+🔢 **Scripts** básicos, intermedios y avanzados
+💡 **Proyectos completos** aplicados a ciencia de datos y desarrollo de juegos
+🧠 **Ejercicios** para reforzar habilidades
+📚 **Documentación y recursos visuales**
+📊 **Visualización interactiva** en la versión web
 
 
-## 📌 Tecnologías usadas
+## Tecnologías usadas
 
 - Lenguaje: **Python 3.10+**
 - Librerías: `numpy`, `pandas`, `matplotlib`, `plotly`, `pygame`, etc.
