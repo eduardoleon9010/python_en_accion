@@ -2,24 +2,25 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Python en Acción</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #1f2937;
     }
     header {
-      background-color: #1e293b;
+      background-color: #1e40af;
       color: white;
       padding: 40px 20px;
       text-align: center;
     }
     nav {
-      background-color: #334155;
+      background-color: #1e3a8a;
       padding: 10px;
       display: flex;
       justify-content: center;
@@ -29,35 +30,49 @@
     nav a {
       color: white;
       text-decoration: none;
-      font-weight: 500;
+      font-weight: 600;
       padding: 6px 12px;
+      transition: background 0.3s;
     }
     nav a:hover {
-      background-color: #475569;
-      border-radius: 5px;
+      background-color: #2563eb;
+      border-radius: 6px;
     }
     section {
-      max-width: 960px;
+      max-width: 1100px;
       margin: auto;
       padding: 40px 20px;
-      background-color: white;
-      margin-top: 30px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
     h2 {
-      color: #1e293b;
+      color: #1e3a8a;
       margin-bottom: 16px;
     }
-    .image-banner {
-      width: 100%;
-      max-height: 300px;
-      object-fit: cover;
-      margin-bottom: 30px;
+    .card-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+    .card {
+      background-color: #ffffff;
+      border: 1px solid #e5e7eb;
       border-radius: 10px;
+      padding: 20px;
+      width: 260px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card a {
+      color: #1e40af;
+      text-decoration: none;
+      font-weight: bold;
     }
     footer {
       text-align: center;
-      color: #666;
+      color: #6b7280;
       font-size: 0.9em;
       padding: 30px 20px;
       margin-top: 40px;
@@ -73,14 +88,13 @@
 </header>
 
 <nav>
-  <a href="#acerca">Acerca del proyecto</a>
+  <a href="#acerca">Acerca</a>
   <a href="#estructura">Estructura</a>
   <a href="#visualizacion">Visualización</a>
   <a href="#contacto">Contacto</a>
 </nav>
 
 <section id="acerca">
-  <img src="https://raw.githubusercontent.com/eduardoleon9010/python_en_accion/main/img/banner_python.png" alt="Banner Python" class="image-banner">
   <h2>Acerca del Proyecto</h2>
   <p>
     Este repositorio está diseñado para facilitar el aprendizaje progresivo del lenguaje Python mediante ejemplos prácticos, ejercicios de desarrollo y proyectos reales en áreas como análisis de datos, visualización, simulación y desarrollo de juegos.
@@ -89,86 +103,71 @@
 
 <section id="estructura">
   <h2>Estructura del Repositorio</h2>
-  <p>Este repositorio está organizado en diferentes secciones para facilitar el acceso al material de aprendizaje y proyectos desarrollados en Python:</p>
-  <div style="overflow-x:auto;">
-    <table style="width:100%; border-collapse: collapse;">
-      <thead>
-        <tr style="background-color: #e5e7eb;">
-          <th style="text-align: left; padding: 10px;">Carpeta / Archivo</th>
-          <th style="text-align: left; padding: 10px;">Descripción</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/docs" target="_blank">docs/</a></td>
-          <td>Página web interactiva para GitHub Pages (<code>index.html</code>)</td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/documentacion" target="_blank">documentacion/</a></td>
-          <td>Archivos explicativos, guías y referencias</td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/img" target="_blank">img/</a></td>
-          <td>Imágenes de apoyo para notebooks o documentación</td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/juego_1" target="_blank">juego_1/</a></td>
-          <td>Proyecto de juego básico con Python</td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/my_pygame_project" target="_blank">my_pygame_project/</a></td>
-          <td>Proyecto interactivo utilizando la librería Pygame</td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/Proyecto_EDA" target="_blank">Proyecto_EDA/</a></td>
-          <td>Proyecto de análisis exploratorio de datos (Exploratory Data Analysis)</td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/scripts" target="_blank">scripts/</a></td>
-          <td>Ejemplos de código organizados por nivel de dificultad</td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/blob/main/Licencia" target="_blank">Licencia</a></td>
-          <td>Archivo de licencia del repositorio (MIT u otra)</td>
-        </tr>
-        <tr>
-          <td><a href="https://github.com/eduardoleon9010/python_en_accion/blob/main/README.md" target="_blank">README.md</a></td>
-          <td>Archivo de presentación general del repositorio</td>
-        </tr>
-      </tbody>
-    </table>
+  <div class="card-grid">
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/docs" target="_blank">docs/</a>
+      <p>Versión web interactiva del repositorio (GitHub Pages).</p>
+    </div>
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/documentacion" target="_blank">documentacion/</a>
+      <p>Guías, explicaciones y materiales de referencia.</p>
+    </div>
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/img" target="_blank">img/</a>
+      <p>Imágenes de apoyo para notebooks o documentación.</p>
+    </div>
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/juego_1" target="_blank">juego_1/</a>
+      <p>Proyecto básico de juego desarrollado en Python.</p>
+    </div>
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/my_pygame_project" target="_blank">my_pygame_project/</a>
+      <p>Proyecto interactivo con la librería Pygame.</p>
+    </div>
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/Proyecto_EDA" target="_blank">Proyecto_EDA/</a>
+      <p>Análisis exploratorio de datos (EDA) con Python.</p>
+    </div>
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/tree/main/scripts" target="_blank">scripts/</a>
+      <p>Programas Python de distintos niveles (básico a avanzado).</p>
+    </div>
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/blob/main/Licencia" target="_blank">Licencia</a>
+      <p>Licencia del proyecto bajo términos MIT.</p>
+    </div>
+    <div class="card">
+      <a href="https://github.com/eduardoleon9010/python_en_accion/blob/main/README.md" target="_blank">README.md</a>
+      <p>Archivo de presentación del repositorio.</p>
+    </div>
   </div>
 </section>
 
-
 <section id="visualizacion">
-  <h2>Visualización interactiva</h2>
-  <p>A continuación, se muestra un gráfico de ejemplo sobre la distribución de scripts por nivel de complejidad:</p>
+  <h2>Visualización Interactiva</h2>
   <div id="grafico" style="width:100%;height:400px;"></div>
   <script>
-    const data = [{
+    Plotly.newPlot('grafico', [{
       x: ['Básico', 'Intermedio', 'Avanzado'],
       y: [15, 10, 5],
       type: 'bar',
-      marker: { color: ['#1f77b4', '#ff7f0e', '#2ca02c'] }
-    }];
-    const layout = {
+      marker: { color: ['#2563eb', '#10b981', '#f59e0b'] }
+    }], {
       title: 'Cantidad de Scripts por Nivel',
       xaxis: { title: 'Nivel' },
       yaxis: { title: 'Cantidad' }
-    };
-    Plotly.newPlot('grafico', data, layout);
+    });
   </script>
 </section>
 
 <section id="contacto">
-  <h2>Contacto y créditos</h2>
-  <p>Este repositorio fue creado por <strong> Ing. Leon, E.</strong> con fines educativos. Puedes contribuir o contactarme vía GitHub.</p>
+  <h2>Contacto y Créditos</h2>
+  <p>Este repositorio fue creado por <strong>@eduardoleon9010</strong> con fines educativos. Puedes contribuir o contactarme vía GitHub.</p>
   <p><a href="https://github.com/eduardoleon9010/python_en_accion" target="_blank">Ver repositorio en GitHub</a></p>
 </section>
 
 <footer>
-  © 2025 Python en Acción · Desarrollado por Ing. Leon, E.
+  © 2025 Python en Acción · Desarrollado por eduardoleon9010
 </footer>
 
 </body>
