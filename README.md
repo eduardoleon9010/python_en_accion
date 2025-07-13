@@ -16,7 +16,7 @@ Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 
 | Carpeta / Archivo         | Descripción                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
-| `docs/`                   | Página web interactiva para GitHub Pages (`index.html`)                     |
+| [`docs/`](https://github.com/eduardoleon9010/python_en_accion/tree/main/docs)                   | Página web interactiva para GitHub Pages (`index.html`)                     |
 | `documentacion/`          | Archivos explicativos, guías y referencias                                  |
 | `img/`                    | Imágenes de apoyo para notebooks o documentación                            |
 | `juego_1/`                | Proyecto de juego básico con Python                                         |
