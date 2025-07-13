@@ -1,16 +1,14 @@
-# 🐍 Repositorio académico de programas en Python
+#  Repositorio académico de programas en Python
 
 Este repositorio está dedicado al aprendizaje y desarrollo de proyectos en **Python** con fines académicos. Contiene ejemplos, ejercicios, proyectos temáticos y recursos útiles para estudiantes, docentes e investigadores.
 
----
 
-## 🌐 Versión interactiva
+##  Versión interactiva
 
-📊 ¿Te gustaría explorar este repositorio de forma visual e interactiva?  
+ ¿Te gustaría explorar este repositorio de forma visual e interactiva?  
 🔗 **[Haz clic aquí para ver la versión web](https://eduardoleon9010.github.io/python_en_accion/)**  
 Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 
----
 
 ## 📂 Estructura del repositorio
 
@@ -26,7 +24,6 @@ Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 | [`Licencia`](https://github.com/eduardoleon9010/python_en_accion/blob/main/LICENSE)                  | Archivo de licencia del repositorio (MIT u otra)                            |
 | [`README.md`](https://github.com/eduardoleon9010/python_en_accion/blob/main/README.md)               | Este archivo                                                               |
 
----
 
 ## 🚀 ¿Qué encontrarás aquí?
 
@@ -36,7 +33,6 @@ Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 - 📚 **Documentación y recursos visuales**
 - 📊 **Visualización interactiva** en la versión web
 
----
 
 ## 📌 Tecnologías usadas
 
@@ -44,19 +40,16 @@ Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 - Librerías: `numpy`, `pandas`, `matplotlib`, `plotly`, `pygame`, etc.
 - Entornos sugeridos: VS Code, Jupyter Notebook, GitHub Pages
 
----
 
 ## 📄 Licencia
 
 Este repositorio está bajo la [Licencia MIT](./Licencia). Puedes utilizar, modificar y compartir su contenido con fines académicos.
 
----
 
 ## 🤝 Contribuciones
 
 ¿Tienes ideas, mejoras o nuevos scripts? ¡Contribuye con un pull request o abre un issue!
 
----
 
 Desarrollado por **Ing. Leon, E.**  
 🔗 Sitio interactivo: [https://eduardoleon9010.github.io/programas-python/](https://eduardoleon9010.github.io/programas-python/)
