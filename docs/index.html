@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Repositorio Académico de Programas en Python</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background: #0055a5;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 30px;
+      max-width: 960px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #003366;
+    }
+    #grafico {
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #666;
+      font-size: 0.9em;
+      background-color: #f0f0f0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Repositorio Académico de Programas en Python</h1>
+  <p>Ejemplos, ejercicios y proyectos educativos con Python</p>
+</header>
+
+<nav>
+  <a href="#intro">Inicio</a>
+  <a href="#estructura">Estructura</a>
+  <a href="#grafico">Gráfico</a>
+  <a href="#licencia">Licencia</a>
+</nav>
+
+<section id="intro">
+  <h2>🎓 Introducción</h2>
+  <p>Este repositorio está dedicado a facilitar el aprendizaje de Python con fines académicos. Contiene scripts explicativos, ejercicios de práctica y proyectos reales para estudiantes, docentes e investigadores.</p>
+</section>
+
+<section id="estructura">
+  <h2>📁 Estructura del Repositorio</h2>
+  <ul>
+    <li><strong>scripts/</strong>: Programas organizados por nivel de dificultad.</li>
+    <li><strong>ejercicios/</strong>: Problemas prácticos para desarrollar habilidades.</li>
+    <li><strong>proyectos/</strong>: Casos de aplicación con propósitos científicos o educativos.</li>
+    <li><strong>documentacion/</strong>: Explicaciones detalladas, guías y referencias.</li>
+    <li><strong>recursos/</strong>: Datasets, presentaciones y materiales de apoyo.</li>
+  </ul>
+</section>
+
+<section id="grafico">
+  <h2>📊 Visualización Interactiva</h2>
+  <p>Distribución de scripts por nivel de dificultad:</p>
+  <div id="plotly-chart" style="width:100%;height:400px;"></div>
+  <script>
+    const data = [{
+      x: ['Básico', 'Intermedio', 'Avanzado'],
+      y: [12, 8, 5],
+      type: 'bar',
+      marker: { color: ['#1f77b4', '#ff7f0e', '#2ca02c'] }
+    }];
+
+    const layout = {
+      title: 'Cantidad de Scripts por Nivel',
+      xaxis: { title: 'Nivel' },
+      yaxis: { title: 'Cantidad' }
+    };
+
+    Plotly.newPlot('plotly-chart', data, layout);
+  </script>
+</section>
+
+<section id="licencia">
+  <h2>📄 Licencia</h2>
+  <p>Este repositorio se encuentra bajo la <strong>Licencia MIT</strong>. Puedes utilizar, modificar y compartir el contenido respetando la autoría.</p>
+</section>
+
+<footer>
+  &copy; 2025 Eduardoleon9010 · Repositorio Python Académico · GitHub Pages
+</footer>
+
+</body>
+</html>
