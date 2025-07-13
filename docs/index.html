@@ -1,122 +1,132 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Repositorio académico de programas en Python</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Python en Acción</title>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
-      background: #f4f4f4;
       margin: 0;
-      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
     }
     header {
-      background-color: #003366;
+      background-color: #1e293b;
       color: white;
-      padding: 20px;
+      padding: 40px 20px;
       text-align: center;
     }
     nav {
-      background: #0055a5;
+      background-color: #334155;
       padding: 10px;
       display: flex;
       justify-content: center;
+      gap: 30px;
       flex-wrap: wrap;
-      gap: 20px;
     }
     nav a {
       color: white;
       text-decoration: none;
-      font-weight: bold;
-      transition: 0.3s;
+      font-weight: 500;
+      padding: 6px 12px;
     }
     nav a:hover {
-      text-decoration: underline;
+      background-color: #475569;
+      border-radius: 5px;
     }
     section {
-      padding: 30px;
       max-width: 960px;
       margin: auto;
-      background: white;
-      margin-top: 20px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      padding: 40px 20px;
+      background-color: white;
+      margin-top: 30px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
     }
     h2 {
-      color: #003366;
+      color: #1e293b;
+      margin-bottom: 16px;
     }
-    #grafico {
-      margin-top: 20px;
+    .image-banner {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+      margin-bottom: 30px;
+      border-radius: 10px;
     }
     footer {
       text-align: center;
-      padding: 20px;
       color: #666;
       font-size: 0.9em;
-      background-color: #f0f0f0;
+      padding: 30px 20px;
+      margin-top: 40px;
+      background-color: #e5e7eb;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Repositorio Académico de Programas en Python</h1>
-  <p>Ejemplos, ejercicios y proyectos educativos con Python</p>
+  <h1>Python en Acción</h1>
+  <p>Repositorio académico para el aprendizaje práctico de Python</p>
 </header>
 
 <nav>
-  <a href="#intro">Inicio</a>
+  <a href="#acerca">Acerca del proyecto</a>
   <a href="#estructura">Estructura</a>
-  <a href="#grafico">Gráfico</a>
-  <a href="#licencia">Licencia</a>
+  <a href="#visualizacion">Visualización</a>
+  <a href="#contacto">Contacto</a>
 </nav>
 
-<section id="intro">
-  <h2>🎓 Introducción</h2>
-  <p>Este repositorio está dedicado a facilitar el aprendizaje de Python con fines académicos. Contiene scripts explicativos, ejercicios de práctica y proyectos reales para estudiantes, docentes e investigadores.</p>
+<section id="acerca">
+  <img src="https://raw.githubusercontent.com/eduardoleon9010/python_en_accion/main/img/banner_python.png" alt="Banner Python" class="image-banner">
+  <h2>Acerca del Proyecto</h2>
+  <p>
+    Este repositorio está diseñado para facilitar el aprendizaje progresivo del lenguaje Python mediante ejemplos prácticos, ejercicios de desarrollo y proyectos reales en áreas como análisis de datos, visualización, simulación y desarrollo de juegos.
+  </p>
 </section>
 
 <section id="estructura">
-  <h2>📁 Estructura del repositorio</h2>
+  <h2>Estructura del repositorio</h2>
   <ul>
-    <li><strong>scripts/</strong>: Programas organizados por nivel de dificultad.</li>
-    <li><strong>ejercicios/</strong>: Problemas prácticos para desarrollar habilidades.</li>
-    <li><strong>proyectos/</strong>: Casos de aplicación con propósitos científicos o educativos.</li>
-    <li><strong>documentacion/</strong>: Explicaciones detalladas, guías y referencias.</li>
-    <li><strong>recursos/</strong>: Datasets, presentaciones y materiales de apoyo.</li>
+    <li><strong>scripts/</strong> – Programas organizados por nivel (básico a avanzado)</li>
+    <li><strong>ejercicios/</strong> – Problemas prácticos para fortalecer habilidades</li>
+    <li><strong>proyectos/</strong> – Aplicaciones completas (juegos, análisis de datos, etc.)</li>
+    <li><strong>documentacion/</strong> – Guías y explicaciones adicionales</li>
+    <li><strong>img/</strong> – Imágenes de apoyo para notebooks y presentación</li>
+    <li><strong>docs/</strong> – Esta página web interactiva (GitHub Pages)</li>
   </ul>
 </section>
 
-<section id="grafico">
-  <h2>📊 Visualización interactiva</h2>
-  <p>Distribución de scripts por nivel de dificultad:</p>
-  <div id="plotly-chart" style="width:100%;height:400px;"></div>
+<section id="visualizacion">
+  <h2>Visualización interactiva</h2>
+  <p>A continuación, se muestra un gráfico de ejemplo sobre la distribución de scripts por nivel de complejidad:</p>
+  <div id="grafico" style="width:100%;height:400px;"></div>
   <script>
     const data = [{
       x: ['Básico', 'Intermedio', 'Avanzado'],
-      y: [12, 8, 5],
+      y: [15, 10, 5],
       type: 'bar',
       marker: { color: ['#1f77b4', '#ff7f0e', '#2ca02c'] }
     }];
-
     const layout = {
       title: 'Cantidad de Scripts por Nivel',
       xaxis: { title: 'Nivel' },
       yaxis: { title: 'Cantidad' }
     };
-
-    Plotly.newPlot('plotly-chart', data, layout);
+    Plotly.newPlot('grafico', data, layout);
   </script>
 </section>
 
-<section id="licencia">
-  <h2>📄 Licencia</h2>
-  <p>Este repositorio se encuentra bajo la <strong>Licencia MIT</strong>. Puedes utilizar, modificar y compartir el contenido respetando la autoría.</p>
+<section id="contacto">
+  <h2>Contacto y créditos</h2>
+  <p>Este repositorio fue creado por <strong> Ing. Leon, E.</strong> con fines educativos. Puedes contribuir o contactarme vía GitHub.</p>
+  <p><a href="https://github.com/eduardoleon9010/python_en_accion" target="_blank">Ver repositorio en GitHub</a></p>
 </section>
 
 <footer>
-  &copy; 2025 Eduardoleon9010 · Repositorio Python Académico · GitHub Pages
+  © 2025 Python en Acción · Desarrollado por Ing. Leon, E.
 </footer>
 
 </body>
