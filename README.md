@@ -10,7 +10,7 @@ Este repositorio está dedicado al aprendizaje y desarrollo de proyectos en **Py
 Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 
 
-📂 **Estructura del repositorio**
+ **Estructura del repositorio**
 
 | Carpeta / Archivo         | Descripción                                                                 |
 |---------------------------|-----------------------------------------------------------------------------|
@@ -26,11 +26,11 @@ Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 
 ***¿Qué encontrarás aquí?***
 
-🔢 **Scripts** básicos, intermedios y avanzados
-💡 **Proyectos completos** aplicados a ciencia de datos y desarrollo de juegos
-🧠 **Ejercicios** para reforzar habilidades
-📚 **Documentación y recursos visuales**
-📊 **Visualización interactiva** en la versión web
+ **Scripts** básicos, intermedios y avanzados
+ **Proyectos completos** aplicados a ciencia de datos y desarrollo de juegos
+ **Ejercicios** para reforzar habilidades
+ **Documentación y recursos visuales**
+ **Visualización interactiva** en la versión web
 
 
 **Tecnologías usadas**
@@ -40,12 +40,12 @@ Incluye navegación amigable y gráficos dinámicos generados con Plotly.js.
 - Entornos sugeridos: VS Code, Jupyter Notebook, GitHub Pages
 
 
-📄 **Licencia**
+ **Licencia**
 
 Este repositorio está bajo la [Licencia MIT](./Licencia). Puedes utilizar, modificar y compartir su contenido con fines académicos.
 
 
-🤝 **Contribuciones**
+ **Contribuciones**
 
 ¿Tienes ideas, mejoras o nuevos scripts? ¡Contribuye con un pull request o abre un issue!
 
